@@ -1,0 +1,502 @@
+[
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/trades/ETHBTC",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "timestamp": 1523431871,
+                "timestampms": 1523431871575,
+                "tid": 3473073147,
+                "price": "0.06081",
+                "amount": "0.35064",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523429702,
+                "timestampms": 1523429702683,
+                "tid": 3472896738,
+                "price": "0.06104",
+                "amount": "0.010132",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523428208,
+                "timestampms": 1523428208887,
+                "tid": 3472795141,
+                "price": "0.061",
+                "amount": "0.001711",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523426996,
+                "timestampms": 1523426996601,
+                "tid": 3472707216,
+                "price": "0.06116",
+                "amount": "0.157036",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523426996,
+                "timestampms": 1523426996601,
+                "tid": 3472707214,
+                "price": "0.06116",
+                "amount": "0.104304",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523425059,
+                "timestampms": 1523425059858,
+                "tid": 3472592818,
+                "price": "0.06123",
+                "amount": "18.13688077",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523425059,
+                "timestampms": 1523425059858,
+                "tid": 3472592816,
+                "price": "0.06123",
+                "amount": "39.99",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523424573,
+                "timestampms": 1523424573922,
+                "tid": 3472558618,
+                "price": "0.06117",
+                "amount": "37.6659",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523424564,
+                "timestampms": 1523424564478,
+                "tid": 3472558042,
+                "price": "0.06117",
+                "amount": "0.0541",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523424524,
+                "timestampms": 1523424524226,
+                "tid": 3472554099,
+                "price": "0.06108",
+                "amount": "15.038276",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523424524,
+                "timestampms": 1523424524226,
+                "tid": 3472554097,
+                "price": "0.06099",
+                "amount": "0.505664",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523424429,
+                "timestampms": 1523424429611,
+                "tid": 3472546977,
+                "price": "0.06099",
+                "amount": "0.004066",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523423212,
+                "timestampms": 1523423212369,
+                "tid": 3472458027,
+                "price": "0.0608",
+                "amount": "0.10668",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523423116,
+                "timestampms": 1523423116668,
+                "tid": 3472451906,
+                "price": "0.06067",
+                "amount": "0.0499",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523422961,
+                "timestampms": 1523422961294,
+                "tid": 3472437006,
+                "price": "0.06058",
+                "amount": "0.055547",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523422188,
+                "timestampms": 1523422188143,
+                "tid": 3472387907,
+                "price": "0.06071",
+                "amount": "2.60971571",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523422188,
+                "timestampms": 1523422188143,
+                "tid": 3472387905,
+                "price": "0.06071",
+                "amount": "0.2",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523422188,
+                "timestampms": 1523422188143,
+                "tid": 3472387903,
+                "price": "0.0607",
+                "amount": "0.949753",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523422188,
+                "timestampms": 1523422188143,
+                "tid": 3472387901,
+                "price": "0.06062",
+                "amount": "0.138664",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523422024,
+                "timestampms": 1523422024128,
+                "tid": 3472377909,
+                "price": "0.0607",
+                "amount": "0.050247",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523420913,
+                "timestampms": 1523420913217,
+                "tid": 3472326174,
+                "price": "0.06057",
+                "amount": "0.11825",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523420913,
+                "timestampms": 1523420913217,
+                "tid": 3472326172,
+                "price": "0.06062",
+                "amount": "0.579016",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523420913,
+                "timestampms": 1523420913217,
+                "tid": 3472326170,
+                "price": "0.06067",
+                "amount": "0.389115",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523420669,
+                "timestampms": 1523420669101,
+                "tid": 3472315831,
+                "price": "0.06067",
+                "amount": "0.018635",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523420571,
+                "timestampms": 1523420571005,
+                "tid": 3472311837,
+                "price": "0.06067",
+                "amount": "0.469968",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523420570,
+                "timestampms": 1523420570608,
+                "tid": 3472311764,
+                "price": "0.06067",
+                "amount": "0.199282",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523420570,
+                "timestampms": 1523420570607,
+                "tid": 3472311762,
+                "price": "0.0607",
+                "amount": "0.014769",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523420121,
+                "timestampms": 1523420121350,
+                "tid": 3472291165,
+                "price": "0.06063",
+                "amount": "1.1",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523419521,
+                "timestampms": 1523419521476,
+                "tid": 3472270254,
+                "price": "0.06061",
+                "amount": "0.222326",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523418769,
+                "timestampms": 1523418769797,
+                "tid": 3472242275,
+                "price": "0.06055",
+                "amount": "0.74",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523418683,
+                "timestampms": 1523418683970,
+                "tid": 3472237685,
+                "price": "0.06065",
+                "amount": "0.1",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523418392,
+                "timestampms": 1523418392792,
+                "tid": 3472219132,
+                "price": "0.06063",
+                "amount": "0.237016",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523418392,
+                "timestampms": 1523418392792,
+                "tid": 3472219130,
+                "price": "0.06063",
+                "amount": "1",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417762,
+                "timestampms": 1523417762256,
+                "tid": 3472196204,
+                "price": "0.06059",
+                "amount": "2.394459",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523417698,
+                "timestampms": 1523417698315,
+                "tid": 3472192440,
+                "price": "0.06059",
+                "amount": "0.99731",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523417613,
+                "timestampms": 1523417613917,
+                "tid": 3472187634,
+                "price": "0.06071",
+                "amount": "0.23628",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417613,
+                "timestampms": 1523417613917,
+                "tid": 3472187632,
+                "price": "0.06071",
+                "amount": "0.876714",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417613,
+                "timestampms": 1523417613462,
+                "tid": 3472187586,
+                "price": "0.06071",
+                "amount": "0.001",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417613,
+                "timestampms": 1523417613460,
+                "tid": 3472187581,
+                "price": "0.06071",
+                "amount": "1.20138",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417613,
+                "timestampms": 1523417613260,
+                "tid": 3472187558,
+                "price": "0.06071",
+                "amount": "10.769617",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417613,
+                "timestampms": 1523417613161,
+                "tid": 3472187550,
+                "price": "0.06071",
+                "amount": "4.667572",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417612,
+                "timestampms": 1523417612455,
+                "tid": 3472187477,
+                "price": "0.06071",
+                "amount": "6.716534",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417612,
+                "timestampms": 1523417612007,
+                "tid": 3472187401,
+                "price": "0.06071",
+                "amount": "31.605406",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417606,
+                "timestampms": 1523417606838,
+                "tid": 3472187181,
+                "price": "0.06071",
+                "amount": "1.11",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417605,
+                "timestampms": 1523417605705,
+                "tid": 3472187044,
+                "price": "0.06071",
+                "amount": "4.857514",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417605,
+                "timestampms": 1523417605318,
+                "tid": 3472186990,
+                "price": "0.06071",
+                "amount": "1.6518",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417604,
+                "timestampms": 1523417604925,
+                "tid": 3472186950,
+                "price": "0.06071",
+                "amount": "22.817778",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417579,
+                "timestampms": 1523417579585,
+                "tid": 3472186280,
+                "price": "0.06071",
+                "amount": "0.096107",
+                "exchange": "gemini",
+                "type": "sell"
+            },
+            {
+                "timestamp": 1523417572,
+                "timestampms": 1523417572713,
+                "tid": 3472186092,
+                "price": "0.06072",
+                "amount": "0.97835869",
+                "exchange": "gemini",
+                "type": "buy"
+            },
+            {
+                "timestamp": 1523417572,
+                "timestampms": 1523417572193,
+                "tid": 3472186081,
+                "price": "0.06071",
+                "amount": "0.330966",
+                "exchange": "gemini",
+                "type": "sell"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Apr 2018 08:07:28 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "7037",
+            "Connection",
+            "close",
+            "Server",
+            "nginx"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/ETHBTC",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.06081",
+            "ask": "0.06099",
+            "volume": {
+                "ETH": "802.75674378",
+                "BTC": "47.9207661585373",
+                "timestamp": 1523433900000
+            },
+            "last": "0.06081"
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Apr 2018 08:07:29 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "133",
+            "Connection",
+            "close",
+            "Server",
+            "nginx"
+        ]
+    }
+]

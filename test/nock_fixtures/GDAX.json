@@ -1,0 +1,829 @@
+[
+    {
+        "scope": "https://api.mybitx.com:443",
+        "method": "GET",
+        "path": "/api/1/trades?pair=ETHBTC",
+        "body": "",
+        "status": 200,
+        "response": {
+            "error": "Invalid currency pair.",
+            "error_code": "ErrInvalidPair",
+            "error_action": {}
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json",
+            "Date",
+            "Wed, 11 Apr 2018 08:07:27 GMT",
+            "Server",
+            "nginx",
+            "Set-Cookie",
+            "device=ZHQxkcLmSH0F93UOTga9PV6+1w==:dj3P4jXhFCUGx13xYUPAdWRJJ84=; Path=/; Max-Age=31536000; HttpOnly; Secure",
+            "Content-Length",
+            "83",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.gdax.com:443",
+        "method": "GET",
+        "path": "/products/ETH-BTC/trades?limit=100",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": "2018-04-11T08:07:10.054Z",
+                "trade_id": 4563829,
+                "price": "0.06082000",
+                "size": "0.32292400",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T08:06:58.619Z",
+                "trade_id": 4563828,
+                "price": "0.06082000",
+                "size": "0.66006700",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T08:06:51.59Z",
+                "trade_id": 4563827,
+                "price": "0.06082000",
+                "size": "0.39582357",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T08:05:08.019Z",
+                "trade_id": 4563826,
+                "price": "0.06081000",
+                "size": "3.16996310",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T08:05:08.019Z",
+                "trade_id": 4563825,
+                "price": "0.06081000",
+                "size": "0.33000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T08:05:08.019Z",
+                "trade_id": 4563824,
+                "price": "0.06081000",
+                "size": "0.01000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T08:01:04.102Z",
+                "trade_id": 4563823,
+                "price": "0.06082000",
+                "size": "0.10000000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T08:00:46.698Z",
+                "trade_id": 4563822,
+                "price": "0.06082000",
+                "size": "0.20000000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T08:00:40.271Z",
+                "trade_id": 4563821,
+                "price": "0.06082000",
+                "size": "0.01904100",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:57:49.828Z",
+                "trade_id": 4563820,
+                "price": "0.06082000",
+                "size": "1.00000000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:57:02.744Z",
+                "trade_id": 4563819,
+                "price": "0.06082000",
+                "size": "0.20000090",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:56:39.363Z",
+                "trade_id": 4563818,
+                "price": "0.06084000",
+                "size": "0.81366800",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:56:39.363Z",
+                "trade_id": 4563817,
+                "price": "0.06084000",
+                "size": "0.39299900",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:56:39.363Z",
+                "trade_id": 4563816,
+                "price": "0.06084000",
+                "size": "0.46000000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:54:44.472Z",
+                "trade_id": 4563815,
+                "price": "0.06085000",
+                "size": "0.55738277",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:54:44.472Z",
+                "trade_id": 4563814,
+                "price": "0.06085000",
+                "size": "0.44215123",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:54:23.023Z",
+                "trade_id": 4563813,
+                "price": "0.06085000",
+                "size": "0.11221873",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:50:02.545Z",
+                "trade_id": 4563812,
+                "price": "0.06085000",
+                "size": "1.00001600",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:49:34.852Z",
+                "trade_id": 4563811,
+                "price": "0.06084000",
+                "size": "0.12007010",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:34.852Z",
+                "trade_id": 4563810,
+                "price": "0.06084000",
+                "size": "0.08017842",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:34.585Z",
+                "trade_id": 4563809,
+                "price": "0.06085000",
+                "size": "0.20000000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:49:34.452Z",
+                "trade_id": 4563808,
+                "price": "0.06085000",
+                "size": "2.00000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:34.452Z",
+                "trade_id": 4563807,
+                "price": "0.06090000",
+                "size": "0.05012716",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:34.452Z",
+                "trade_id": 4563806,
+                "price": "0.06093000",
+                "size": "0.09133355",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:34.452Z",
+                "trade_id": 4563805,
+                "price": "0.06094000",
+                "size": "0.01423800",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:33.064Z",
+                "trade_id": 4563804,
+                "price": "0.06095000",
+                "size": "0.15594723",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:33.064Z",
+                "trade_id": 4563803,
+                "price": "0.06096000",
+                "size": "0.01035000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:33.064Z",
+                "trade_id": 4563802,
+                "price": "0.06097000",
+                "size": "0.02000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:33.064Z",
+                "trade_id": 4563801,
+                "price": "0.06097000",
+                "size": "0.02000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:33.064Z",
+                "trade_id": 4563800,
+                "price": "0.06097000",
+                "size": "0.22870721",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:49:33.064Z",
+                "trade_id": 4563799,
+                "price": "0.06099000",
+                "size": "3.45051791",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:48:53.209Z",
+                "trade_id": 4563798,
+                "price": "0.06099000",
+                "size": "0.14443036",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:48:53.031Z",
+                "trade_id": 4563797,
+                "price": "0.06099000",
+                "size": "0.20000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:48:34.248Z",
+                "trade_id": 4563796,
+                "price": "0.06099000",
+                "size": "0.05556919",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:48:31.917Z",
+                "trade_id": 4563795,
+                "price": "0.06099000",
+                "size": "0.94948254",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:48:31.917Z",
+                "trade_id": 4563794,
+                "price": "0.06099000",
+                "size": "2.93508302",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:47:42.453Z",
+                "trade_id": 4563793,
+                "price": "0.06099000",
+                "size": "0.11600000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:47:42.084Z",
+                "trade_id": 4563792,
+                "price": "0.06099000",
+                "size": "0.22816100",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:47:37.286Z",
+                "trade_id": 4563791,
+                "price": "0.06099000",
+                "size": "0.08200000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:47:36.646Z",
+                "trade_id": 4563790,
+                "price": "0.06099000",
+                "size": "0.40000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:47:34.877Z",
+                "trade_id": 4563789,
+                "price": "0.06099000",
+                "size": "0.02870900",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:46:54.222Z",
+                "trade_id": 4563788,
+                "price": "0.06099000",
+                "size": "0.03121192",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:46:47.71Z",
+                "trade_id": 4563787,
+                "price": "0.06099000",
+                "size": "5.91962805",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:46:28.87Z",
+                "trade_id": 4563786,
+                "price": "0.06099000",
+                "size": "0.92682918",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:45:52.088Z",
+                "trade_id": 4563785,
+                "price": "0.06099000",
+                "size": "1.26063801",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:45:38.061Z",
+                "trade_id": 4563784,
+                "price": "0.06099000",
+                "size": "0.12043281",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:45:37.991Z",
+                "trade_id": 4563783,
+                "price": "0.06099000",
+                "size": "0.07956719",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:45:10.606Z",
+                "trade_id": 4563782,
+                "price": "0.06099000",
+                "size": "0.06260000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:45:03.654Z",
+                "trade_id": 4563781,
+                "price": "0.06099000",
+                "size": "0.06230119",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:45:03.476Z",
+                "trade_id": 4563780,
+                "price": "0.06099000",
+                "size": "0.75635860",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:43:55.207Z",
+                "trade_id": 4563779,
+                "price": "0.06099000",
+                "size": "2.48875000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:43:50.022Z",
+                "trade_id": 4563778,
+                "price": "0.06099000",
+                "size": "1.00000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:43:01.291Z",
+                "trade_id": 4563777,
+                "price": "0.06099000",
+                "size": "1.36540000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:42:47.246Z",
+                "trade_id": 4563776,
+                "price": "0.06099000",
+                "size": "0.62633003",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:42:47.246Z",
+                "trade_id": 4563775,
+                "price": "0.06100000",
+                "size": "0.30000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:42:47.246Z",
+                "trade_id": 4563774,
+                "price": "0.06100000",
+                "size": "0.09212750",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:42:47.246Z",
+                "trade_id": 4563773,
+                "price": "0.06100000",
+                "size": "0.17000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:42:47.246Z",
+                "trade_id": 4563772,
+                "price": "0.06100000",
+                "size": "2.51398857",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:42:35.87Z",
+                "trade_id": 4563771,
+                "price": "0.06100000",
+                "size": "2.30790000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:42:04.232Z",
+                "trade_id": 4563770,
+                "price": "0.06100000",
+                "size": "0.20446838",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:41:48.509Z",
+                "trade_id": 4563769,
+                "price": "0.06100000",
+                "size": "7.76688927",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:41:05.312Z",
+                "trade_id": 4563768,
+                "price": "0.06101000",
+                "size": "0.10000000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:40:38.398Z",
+                "trade_id": 4563767,
+                "price": "0.06100000",
+                "size": "3.99864369",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:39:49.64Z",
+                "trade_id": 4563766,
+                "price": "0.06101000",
+                "size": "0.20000000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:39:16.421Z",
+                "trade_id": 4563765,
+                "price": "0.06100000",
+                "size": "2.00490118",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:39:02.586Z",
+                "trade_id": 4563764,
+                "price": "0.06100000",
+                "size": "2.38990000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:36.728Z",
+                "trade_id": 4563763,
+                "price": "0.06100000",
+                "size": "0.38515987",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:33.627Z",
+                "trade_id": 4563762,
+                "price": "0.06100000",
+                "size": "8.12021461",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:33.627Z",
+                "trade_id": 4563761,
+                "price": "0.06102000",
+                "size": "4.00000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:33.627Z",
+                "trade_id": 4563760,
+                "price": "0.06102000",
+                "size": "0.54292742",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:33.516Z",
+                "trade_id": 4563759,
+                "price": "0.06102000",
+                "size": "8.12021461",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:30.929Z",
+                "trade_id": 4563758,
+                "price": "0.06102000",
+                "size": "8.11796142",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:04.726Z",
+                "trade_id": 4563757,
+                "price": "0.06102000",
+                "size": "0.05790826",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:04.726Z",
+                "trade_id": 4563756,
+                "price": "0.06103000",
+                "size": "0.14209174",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:03.632Z",
+                "trade_id": 4563755,
+                "price": "0.06103000",
+                "size": "2.22409183",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:03.497Z",
+                "trade_id": 4563754,
+                "price": "0.06103000",
+                "size": "0.87045054",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:03.497Z",
+                "trade_id": 4563753,
+                "price": "0.06104000",
+                "size": "0.32765403",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:38:03.497Z",
+                "trade_id": 4563752,
+                "price": "0.06104000",
+                "size": "0.36599543",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:35:26.256Z",
+                "trade_id": 4563751,
+                "price": "0.06104000",
+                "size": "0.01734800",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:34:43.126Z",
+                "trade_id": 4563750,
+                "price": "0.06104000",
+                "size": "0.58774530",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:34:43.126Z",
+                "trade_id": 4563749,
+                "price": "0.06104000",
+                "size": "0.20000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:34:43.126Z",
+                "trade_id": 4563748,
+                "price": "0.06104000",
+                "size": "0.77635470",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:31:14.993Z",
+                "trade_id": 4563747,
+                "price": "0.06104000",
+                "size": "0.10922800",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:26:03.765Z",
+                "trade_id": 4563746,
+                "price": "0.06105000",
+                "size": "0.32000000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:24:45.391Z",
+                "trade_id": 4563745,
+                "price": "0.06104000",
+                "size": "0.20000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T07:21:48.348Z",
+                "trade_id": 4563744,
+                "price": "0.06105000",
+                "size": "0.39347598",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:16:39.622Z",
+                "trade_id": 4563743,
+                "price": "0.06105000",
+                "size": "0.20000000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:15:07.242Z",
+                "trade_id": 4563742,
+                "price": "0.06105000",
+                "size": "0.41800000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:14:54.272Z",
+                "trade_id": 4563741,
+                "price": "0.06105000",
+                "size": "1.17690000",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:14:43.35Z",
+                "trade_id": 4563740,
+                "price": "0.06105000",
+                "size": "3.15547601",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:14:43.215Z",
+                "trade_id": 4563739,
+                "price": "0.06105000",
+                "size": "8.11755399",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:14:29.455Z",
+                "trade_id": 4563738,
+                "price": "0.06105000",
+                "size": "8.11755399",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:14:29.303Z",
+                "trade_id": 4563737,
+                "price": "0.06105000",
+                "size": "8.11755399",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:13:06.176Z",
+                "trade_id": 4563736,
+                "price": "0.06103000",
+                "size": "0.01000320",
+                "side": "sell"
+            },
+            {
+                "time": "2018-04-11T07:04:51.172Z",
+                "trade_id": 4563735,
+                "price": "0.06102000",
+                "size": "0.01661300",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T06:56:44.533Z",
+                "trade_id": 4563734,
+                "price": "0.06100000",
+                "size": "0.09845640",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T06:56:05.786Z",
+                "trade_id": 4563733,
+                "price": "0.06099000",
+                "size": "0.19900000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T06:56:04.737Z",
+                "trade_id": 4563732,
+                "price": "0.06095000",
+                "size": "1.17667489",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T06:56:04.737Z",
+                "trade_id": 4563731,
+                "price": "0.06096000",
+                "size": "2.50000000",
+                "side": "buy"
+            },
+            {
+                "time": "2018-04-11T06:56:04.737Z",
+                "trade_id": 4563730,
+                "price": "0.06096000",
+                "size": "1.76283473",
+                "side": "buy"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Apr 2018 08:07:27 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "10923",
+            "Connection",
+            "close",
+            "Set-Cookie",
+            "__cfduid=dd8d7afa4ec25f2cdb1f782e65b78e0091523434047; expires=Thu, 11-Apr-19 08:07:27 GMT; path=/; domain=.gdax.com; HttpOnly",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=5",
+            "cb-after",
+            "4563730",
+            "cb-before",
+            "4563829",
+            "ETag",
+            "W/\"2aab-R/I1IKWDiVJKLKmRBMbGbqVRLx8\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "409bf5aa1f1b8ff9-DME"
+        ]
+    },
+    {
+        "scope": "https://api.gdax.com:443",
+        "method": "GET",
+        "path": "/products/ETH-BTC/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 4563829,
+            "price": "0.06082000",
+            "size": "0.32292400",
+            "bid": "0.06081",
+            "ask": "0.06082",
+            "volume": "6224.45812488",
+            "time": "2018-04-11T08:07:10.054000Z"
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Apr 2018 08:07:27 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "155",
+            "Connection",
+            "close",
+            "Set-Cookie",
+            "__cfduid=d970b03b195d4143cde4dd19bfd23afc81523434047; expires=Thu, 11-Apr-19 08:07:27 GMT; path=/; domain=.gdax.com; HttpOnly",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1",
+            "ETag",
+            "W/\"9b-HWsfUNFTY2e6szyCg73cLqa4fgI\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "409bf5adcc149017-DME"
+        ]
+    }
+]

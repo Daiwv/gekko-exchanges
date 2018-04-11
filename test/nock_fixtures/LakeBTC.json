@@ -1,0 +1,42 @@
+[
+    {
+        "scope": "https://www.lakebtc.com:443",
+        "method": "get",
+        "path": "/api_v1/bctrades/?since=1523433749",
+        "body": "",
+        "status": 404,
+        "response": "not found",
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 11 Apr 2018 08:07:30 GMT",
+            "Content-Type",
+            "application/octet-stream",
+            "Content-Length",
+            "9",
+            "Connection",
+            "close"
+        ]
+    },
+    {
+        "scope": "https://www.lakebtc.com:443",
+        "method": "get",
+        "path": "/api_v1/ticker/?",
+        "body": "",
+        "status": 404,
+        "response": "not found",
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Wed, 11 Apr 2018 08:07:31 GMT",
+            "Content-Type",
+            "application/octet-stream",
+            "Content-Length",
+            "9",
+            "Connection",
+            "close"
+        ]
+    }
+]

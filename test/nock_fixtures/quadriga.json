@@ -1,0 +1,214 @@
+[
+    {
+        "scope": "https://api.quadrigacx.com:443",
+        "method": "GET",
+        "path": "/v2/transactions/?book=eth_btc&time=hour",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "amount": "0.33463290",
+                "date": "1523432708",
+                "price": "0.06043001",
+                "tid": 3190944,
+                "side": "buy"
+            },
+            {
+                "amount": "0.33750000",
+                "date": "1523432706",
+                "price": "0.06043001",
+                "tid": 3190943,
+                "side": "buy"
+            },
+            {
+                "amount": "1.00000000",
+                "date": "1523432695",
+                "price": "0.06043001",
+                "tid": 3190942,
+                "side": "buy"
+            },
+            {
+                "amount": "2.12273958",
+                "date": "1523432691",
+                "price": "0.06043001",
+                "tid": 3190941,
+                "side": "buy"
+            },
+            {
+                "amount": "4.00000000",
+                "date": "1523432690",
+                "price": "0.06043001",
+                "tid": 3190940,
+                "side": "sell"
+            },
+            {
+                "amount": "0.40080160",
+                "date": "1523432690",
+                "price": "0.06043002",
+                "tid": 3190939,
+                "side": "sell"
+            },
+            {
+                "amount": "2.12273958",
+                "date": "1523432689",
+                "price": "0.06043002",
+                "tid": 3190938,
+                "side": "buy"
+            },
+            {
+                "amount": "0.26723600",
+                "date": "1523432686",
+                "price": "0.06043003",
+                "tid": 3190937,
+                "side": "sell"
+            },
+            {
+                "amount": "0.40080160",
+                "date": "1523432686",
+                "price": "0.06043004",
+                "tid": 3190936,
+                "side": "sell"
+            },
+            {
+                "amount": "8.09650000",
+                "date": "1523432684",
+                "price": "0.06044000",
+                "tid": 3190935,
+                "side": "buy"
+            },
+            {
+                "amount": "0.10000000",
+                "date": "1523432681",
+                "price": "0.06044000",
+                "tid": 3190934,
+                "side": "sell"
+            },
+            {
+                "amount": "0.10000000",
+                "date": "1523432675",
+                "price": "0.06043001",
+                "tid": 3190933,
+                "side": "sell"
+            },
+            {
+                "amount": "0.09928858",
+                "date": "1523430983",
+                "price": "0.06121000",
+                "tid": 3190920,
+                "side": "buy"
+            },
+            {
+                "amount": "0.10000000",
+                "date": "1523430979",
+                "price": "0.06069000",
+                "tid": 3190919,
+                "side": "buy"
+            },
+            {
+                "amount": "0.10000000",
+                "date": "1523430979",
+                "price": "0.06069000",
+                "tid": 3190918,
+                "side": "sell"
+            },
+            {
+                "amount": "0.08399999",
+                "date": "1523430977",
+                "price": "0.06069001",
+                "tid": 3190917,
+                "side": "buy"
+            },
+            {
+                "amount": "1.10116104",
+                "date": "1523430977",
+                "price": "0.06069001",
+                "tid": 3190916,
+                "side": "buy"
+            },
+            {
+                "amount": "0.10000000",
+                "date": "1523430970",
+                "price": "0.06069001",
+                "tid": 3190915,
+                "side": "sell"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Apr 2018 08:07:36 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "close",
+            "Set-Cookie",
+            "__cfduid=dc4656fe2c363c49d92f7a39ff2a7c15a1523434056; expires=Thu, 11-Apr-19 08:07:36 GMT; path=/; domain=.quadrigacx.com; HttpOnly",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Powered-By",
+            "PHP/5.5.9-1ubuntu4.24",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "409bf5e498d38fbd-DME"
+        ]
+    },
+    {
+        "scope": "https://api.quadrigacx.com:443",
+        "method": "GET",
+        "path": "/v2/ticker/?book=eth_btc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "high": "0.06121000",
+            "last": "0.06043001",
+            "timestamp": "1523434022",
+            "volume": "422.30150535",
+            "vwap": "0.05939274",
+            "low": "0.05990999",
+            "ask": "0.06106999",
+            "bid": "0.06011000"
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Apr 2018 08:07:36 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "close",
+            "Set-Cookie",
+            "__cfduid=db2be2273a5680ea275a77ade76d5813d1523434056; expires=Thu, 11-Apr-19 08:07:36 GMT; path=/; domain=.quadrigacx.com; HttpOnly",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Powered-By",
+            "PHP/5.5.9-1ubuntu4.24",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "409bf5e5cfdb9011-DME"
+        ]
+    }
+]

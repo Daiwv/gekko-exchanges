@@ -1,0 +1,76 @@
+[
+    {
+        "scope": "https://api.coingi.com:443",
+        "method": "GET",
+        "path": "/current/transactions/ETH-BTC/512",
+        "body": "",
+        "status": 400,
+        "response": {
+            "errors": [
+                {
+                    "code": 200002,
+                    "message": "Invalid currency pair."
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Apr 2018 08:07:26 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "63",
+            "Connection",
+            "close",
+            "Set-Cookie",
+            "__cfduid=dfda2542c3db548d806a9761c148709841523434046; expires=Thu, 11-Apr-19 08:07:26 GMT; path=/; domain=.coingi.com; HttpOnly",
+            "X-Powered-By",
+            "Coingi API 1.6.0",
+            "X-Coingi-Cached",
+            "0",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "409bf5a5efc58e31-DME"
+        ]
+    },
+    {
+        "scope": "https://api.coingi.com:443",
+        "method": "GET",
+        "path": "/current/order-book/ETH-BTC/1/1/1",
+        "body": "",
+        "status": 400,
+        "response": {
+            "errors": [
+                {
+                    "code": 100002,
+                    "message": "Invalid currency pair."
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Apr 2018 08:07:26 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "63",
+            "Connection",
+            "close",
+            "Set-Cookie",
+            "__cfduid=d18a0887fdc46fc8b3782dcc459bf89bc1523434046; expires=Thu, 11-Apr-19 08:07:26 GMT; path=/; domain=.coingi.com; HttpOnly",
+            "X-Powered-By",
+            "Coingi API 1.6.0",
+            "X-Coingi-Cached",
+            "0",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "409bf5a7fb588e2b-DME"
+        ]
+    }
+]

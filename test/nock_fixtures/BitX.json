@@ -1,0 +1,28 @@
+[
+    {
+        "scope": "https://api.mybitx.com:443",
+        "method": "GET",
+        "path": "/api/1/trades?pair=ETHBTC",
+        "body": "",
+        "status": 200,
+        "response": {
+            "error": "Invalid currency pair.",
+            "error_code": "ErrInvalidPair",
+            "error_action": {}
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json",
+            "Date",
+            "Wed, 11 Apr 2018 08:07:17 GMT",
+            "Server",
+            "nginx",
+            "Set-Cookie",
+            "device=ZHQxgAVNCC6K6MLqKYB+ZmH/6A==:Kn2vxRoCG6ScKbX5ZOgQMqZEAXA=; Path=/; Max-Age=31536000; HttpOnly; Secure",
+            "Content-Length",
+            "83",
+            "Connection",
+            "Close"
+        ]
+    }
+]
