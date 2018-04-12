@@ -11,7 +11,7 @@ Based on [gekko](https://github.com/askmike/gekko)
 npm install gekko-exchanges
 ```
 
-### Usage [example](example.js)
+### Usage [example](demo/example.js)
 ```
 const { Binance, Bitfinex } = require('gekko-exchanges');
 
