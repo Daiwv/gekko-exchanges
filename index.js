@@ -1,7 +1,13 @@
 const { join } = require('path')
 const { promisifyAll } = require('bluebird')
 
-const util = require(join(__dirname, 'node_modules/gekko/core/util'))
+let util
+
+try {
+  util = require(join(__dirname, '../../node_modules/gekko/core/util'))
+} catch (e) {
+  util = require(join(__dirname, 'node_modules/gekko/core/util'))
+}
 
 util.setConfig({})
 
